@@ -1,0 +1,13 @@
+.product:nth-child(n) .product-art:is(.product-brocoli,.product-coliflor,.product-lechuga,.product-col,.product-acelga,.product-espinaca,.product-ajo,.product-apio,.product-nabo,.product-remolacha,.product-zapallo,.product-sambo){background-image:url("hortalizas.png");background-size:400% auto;background-repeat:no-repeat}
+.product:nth-child(n) .product-art.product-brocoli{background-position:0% 12%}
+.product:nth-child(n) .product-art.product-coliflor{background-position:33.333% 12%}
+.product:nth-child(n) .product-art.product-lechuga{background-position:66.667% 12%}
+.product:nth-child(n) .product-art.product-col{background-position:100% 12%}
+.product:nth-child(n) .product-art.product-acelga{background-position:0% 50%}
+.product:nth-child(n) .product-art.product-espinaca{background-position:33.333% 50%}
+.product:nth-child(n) .product-art.product-ajo{background-position:66.667% 50%}
+.product:nth-child(n) .product-art.product-apio{background-position:100% 50%}
+.product:nth-child(n) .product-art.product-nabo{background-position:0% 88%}
+.product:nth-child(n) .product-art.product-remolacha{background-position:33.333% 88%}
+.product:nth-child(n) .product-art.product-zapallo{background-position:66.667% 88%}
+.product:nth-child(n) .product-art.product-sambo{background-position:100% 88%}

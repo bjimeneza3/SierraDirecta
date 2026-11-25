@@ -1,0 +1,8 @@
+/* Movimiento discreto y mejoras visuales del catálogo. */
+@keyframes vista-entrante{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.view-enter{animation:vista-entrante .32s cubic-bezier(.2,.7,.2,1) both}
+nav button{transition:background .2s ease,color .2s ease,box-shadow .2s ease,transform .2s ease}nav button:hover{transform:translateX(3px)}
+.product{transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}.product:hover{transform:translateY(-5px);border-color:#c9ddca;box-shadow:0 16px 35px #1d462019}.product-art{transition:filter .25s ease}.product:hover .product-art{filter:saturate(1.09)}
+.btn{transition:background-color .2s ease,color .2s ease,box-shadow .2s ease,transform .2s ease}.btn:hover{transform:translateY(-1px);box-shadow:0 6px 14px #1e513327}.btn:active{transform:translateY(0)}
+.filters{padding:12px;background:#fff;border:1px solid #e6eee4;border-radius:13px;box-shadow:0 7px 24px #274b3409}.filters input,.filters select{background:#f8faf7;box-shadow:none}.product-meta{gap:12px}.product-body>p{line-height:1.4}
+@media(prefers-reduced-motion:reduce){.view-enter{animation:none}nav button,.product,.product-art,.btn{transition:none}nav button:hover,.product:hover,.btn:hover{transform:none}}
